@@ -1,0 +1,42 @@
+/* Cart.css */
+
+/* Container for the course cart */
+.cart-container {
+    max-width: 300px; /* Set the maximum width */
+    margin: 20px; /* Add margin to space out from the top and center horizontally */
+    padding: 20px; /* Add padding */
+    border: 2px solid #000000; /* Add border */
+    border-radius: 8px; /* Add border radius */
+    background-color: #FFFFFF; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+} 
+
+/* Cart header */
+.cart-header {
+    text-align: center; /* Center align the text */
+    margin-bottom: 20px; /* Add some space at the bottom */
+}
+
+/* Styled card for individual items */
+.colored-card {
+    background-color: #d5cad6; /* Yellow background */
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    border: 2px solid #000000; /* Black border */
+}
+
+/* Checkout button container */
+.checkout-button {
+    text-align: center; /* Center align the button */
+    /*margin-top: 20px; /* Add some space at the top */
+    width: 50%; 
+    margin: 0 auto; 
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px; /* Adjust padding */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px; /* Adjust font size */
+}

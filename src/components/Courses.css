@@ -1,0 +1,72 @@
+/* Courses.css */
+
+/* Set the background color to #EAFFFD */
+body {
+    background-color: #EAFFFD; /* Light blue-green color */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    font-family: 'Roboto', sans-serif; /* Use Roboto font family */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Button styles */
+.view-cart-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-cart-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Define card styles */
+.card {
+    background-color: #FFFFFF; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    margin-bottom: 20px;
+}
+
+.view-cart-button:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+}
+
+.add-cart-button:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+}
+
+.course-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Search container styles */
+.search-container {
+    position: relative;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+  }
+  
+  /* Search input styles */
+  .fancy-search {
+    width: 300px; /* Adjust width as needed */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Adjust border radius for rounded corners */
+    background-color: #f0f0f0; /* Light gray background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+  }

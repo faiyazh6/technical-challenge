@@ -1,0 +1,18 @@
+.card-container {
+    width: 400px; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .cart-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .checkout-button button:hover {
+    background-color: #0056b3;
+  }  

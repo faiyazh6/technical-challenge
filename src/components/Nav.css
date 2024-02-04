@@ -1,0 +1,19 @@
+/* Nav.css */
+
+.title-container {
+    text-align: center;
+  }
+  
+  .bubble-title {
+    font-family: 'Times New Roman', serif; /* Change font-family to Times New Roman */
+    font-size: 36px; /* Adjust font size as needed */
+    color: #002955; /* Set the color */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 3px; /* Adjust letter spacing */
+    margin: 0; /* Remove any default margin */
+    border: 2px solid black; /* Add border */
+    padding: 10px; /* Add padding for spacing */
+    border-radius: 10px; /* Add border radius for a rounded appearance */
+    background-color: #f0f0f0; /* Set background color */
+    display: inline-block; /* Make the title display as an inline block */
+  }  
